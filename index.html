@@ -1,1 +1,61 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Proyecto - Silvia Paola Jimenez Perez</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <main style="text-align:center;">
+    <!-- Imagen 1 -->
+    <img src="act1.png" alt="Imagen 1" /> 
+
+    <!-- Título y encabezado -->
+    <h1>Silvia Paola Jimenez Perez</h1>
+    <h2>Matricula: F-12718</h2>
+    <h2>Edad: 21 años</h2>
+    <h3>Yo y mi amor por el gym</h3>
+
+    <!-- Texto descriptivo -->
+    <p style="max-width:800px;margin:auto;">
+      Mi historia en el gimnasio y mi constancia se la debo a mi noviecito pues él me motivó y me entrenó para poder crecer más como persona tanto física como mentalmente, preparándome día con día en nuestros entrenamientos.
+    </p>
+
+    <!-- Imagen 2 -->
+    <img src="act2.jpg" alt="Imagen 2" width="600" height="600" /> 
+
+    <!-- Video 1 -->
+    <video src="act3.mov" width="600" controls></video>
+
+    <!-- Audio -->
+    <audio src="act4.mp3" controls></audio>
+
+    <!-- Video 2 -->
+    <video src="act5.mov" width="600" controls></video>
+
+    <!-- Formulario -->
+    <form action="2cgi-bin/form" method="post" style="margin-top:2rem;">
+      <pre>
+NOMBRE: <input name="nombre" size="30">
+CALLE: <input name="calle" size="40">
+DOMICILIO: <input name="localidad" size="35">
+ESTADO: <input name="prov" size="25">
+COD. POSTAL: <input name="cp" size="5" maxlength="5">
+      </pre>
+
+
+
+      <input type="submit" value="ENVIAR" onclick="parent.location='mailto:patriciosa01@gmail.com'">
+      <input type="reset" value="BORRAR">
+    </form>
+  </main>
+
+  <footer style="text-align:center;margin-top:2rem;">
+    <p>&copy; <span id="year"></span> Silvia Paola Jimenez Perez</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
 
